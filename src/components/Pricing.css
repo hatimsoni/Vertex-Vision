@@ -1,0 +1,71 @@
+/* Pricing Section */
+#pricing {
+    padding: 80px 0;
+    background-color: #002147; /* Dark Blue */
+    text-align: center;
+  }
+  
+  #pricing h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffcc00; /* Bright Yellow */
+    margin-bottom: 50px;
+  }
+  
+  /* Pricing Container */
+  .pricing-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Individual Pricing Card */
+  .pricing-card {
+    background: #003366; /* Deep Blue */
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+    width: 320px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .pricing-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .pricing-card h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffcc00; /* Yellow */
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ffcc00; /* Horizontal Line */
+    padding-bottom: 8px;
+  }
+  
+  /* Pricing Options */
+  .pricing-options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  .pricing-option {
+    background: #ffcc00; /* Yellow */
+    padding: 12px;
+    border-radius: 8px;
+    color: #002147; /* Dark Blue */
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+  }
+  
+  /* Horizontal Line Between Pricing Options */
+  .pricing-option:not(:last-child) {
+    border-bottom: 2px solid #002147;
+    padding-bottom: 15px;
+  }
+  
